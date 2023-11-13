@@ -1,0 +1,24 @@
+/* Animation  */
+
+.locale{
+    animation-name:colorchange;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes colorChange {
+    0% {
+        color:blueviolet;
+    }
+
+    25% {
+        color:red;
+    }
+
+    50% {
+        color: violet;
+    }
+
+    100% {
+        color:lavenderblush;
+    }
+}
